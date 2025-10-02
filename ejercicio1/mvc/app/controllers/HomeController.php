@@ -8,8 +8,12 @@ class HomeController{
         return $this->view("HomeView");
     }
 
-    public function view($vista){
+    public function obtenerDatos(){
         
+    }
+
+    public function view($vista){
+
         if(file_exists("../app/views/$vista.php")){
 
             ob_start();

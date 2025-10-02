@@ -35,7 +35,7 @@ class Route
 
 
                 if (is_callable($funcion)) {
-                    $response = $funcion(...$params);
+                    $response = $funcion(...$params);  
                 }
 
 
