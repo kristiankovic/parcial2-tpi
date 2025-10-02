@@ -1,0 +1,9 @@
+crear la imagen
+
+docker build -t imagen-e1 .
+
+-----------------------------------------
+
+crear el contenedor 
+
+docker run -d --name cont-e1 -p 8080:80 -v .:/var/www/html imagen-e1
